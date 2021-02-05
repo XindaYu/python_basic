@@ -32,6 +32,11 @@ print("dict['Name']: ", dict3['Name'])
 print("dict['Age']: ", dict3['Age'])
 print("dictionary0 is: ", dict0)
 
+# 在字典中遍历时，关键字和对应的值可以使用 items() 方法同时解读出来：
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
+
 tinydict = {'name': 'runtest', 'code': 1, 'site': 'www.baidu.com'}
 print(dict0['one'])  # 输出键为 'one' 的值 1 - aaa
 print(dict0[2])  # 输出键为 2 的值 2 - bbb
